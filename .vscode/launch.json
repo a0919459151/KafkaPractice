@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug Kafka Publisher",
+        "type": "coreclr",
+        "request": "launch",
+        "preLaunchTask": "build",
+        "program": "${workspaceFolder}/src/KafkaPractice.Publisher/bin/Debug/net9.0/KafkaPractice.Publisher.dll",
+        "cwd": "${workspaceFolder}/src/KafkaPractice.Publisher",
+        "stopAtEntry": false
+      },
+      {
+        "name": "Debug Kafka Consumer",
+        "type": "coreclr",
+        "request": "launch",
+        "preLaunchTask": "build",
+        "program": "${workspaceFolder}/src/KafkaPractice.Consumer/bin/Debug/net9.0/KafkaPractice.Consumer.dll",
+        "cwd": "${workspaceFolder}/src/KafkaPractice.Consumer",
+        "stopAtEntry": false
+      }
+    ]
+  }
